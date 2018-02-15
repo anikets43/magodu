@@ -16,7 +16,7 @@
 	padding: 3px 10px;
 	font-size: 12px;
 	border-radius:2px;
-	background: #ec1d25;
+	background: #e56809;
 	opacity:1;
 }
 /* Clickable class fix problem with hover on touch devices */
@@ -36,15 +36,16 @@
 	width: 12px;
 	height: 12px;
 	margin: 5px 7px;
-	opacity: 0.5;
 	-webkit-border-radius: 20px;
 	-moz-border-radius: 20px;
 	border-radius: 20px;
-	background: #ec1d25;
+	background: #1d993d;
+	opacity: 0.8;
 }
 
 .owl-controlls .owl-page.active span,
 .owl-controlls.clickable .owl-page:hover span{
+	background: #e56809;
 	opacity: 1;
 }
 
