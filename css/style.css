@@ -1543,3 +1543,36 @@ element.style {
 .charity-logo{
     width: 55%;
 }
+
+.modal {
+    text-align: center;
+    padding: 0!important;
+  }
+  
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -4px;
+  }
+  
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+  }
+  .modal-content{
+      border-radius: 0;
+  }
+
+  .modal-header{
+      background-color: #e56809;
+  }
+
+  .modal-title {
+    margin: 0;
+    color: #fff;
+    line-height: 1.42857143;
+    font-size: 20px;
+}
