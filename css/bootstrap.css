@@ -186,6 +186,7 @@ table {
 td,
 th {
   padding: 0;
+  text-align: center;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
@@ -1100,11 +1101,11 @@ a {
   color: #337ab7;
   text-decoration: none;
 }
-a:hover,
+/* a:hover,
 a:focus {
   color: #23527c;
   text-decoration: underline;
-}
+} */
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
@@ -2250,6 +2251,7 @@ pre code {
 }
 table {
   background-color: transparent;
+  border-color:transparent;
 }
 caption {
   padding-top: 8px;
@@ -4689,13 +4691,16 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
 .breadcrumb {
-	color:#fff;
-	text-align:right;
-	letter-spacing:1px;
-	margin-top:15px;
+	color:#1d993d;
+  text-align: right;
+  letter-spacing: 1px;
+  margin-top: 15px;
 }
 .breadcrumb a{
-	color:#ec1d25;
+	color:#e56809;
+}
+.breadcrumb a:hover{
+	color:#1d993d;
 }
 .breadcrumb > li {
   display: inline-block;
