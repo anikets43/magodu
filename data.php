@@ -8,9 +8,6 @@
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="robots" content="index,follow">
-	<meta http-equiv='cache-control' content='no-cache'>
-<meta http-equiv='expires' content='0'>
-<meta http-equiv='pragma' content='no-cache'>
 
 	<title>Magodu Charitable Trust</title>
 
@@ -25,6 +22,51 @@
 </head>
 
 <body>
+
+<?php
+$servername = "localhost";
+$username = "mybcbqhk_magodu";
+$password = "Mag0du";
+$dbname = "mybcbqhk_magodu";
+
+ $connector = mysql_connect($servername,$username,$password, $dbname)
+          or die("Unable to connect");
+        echo "Connections are made successfully::";
+      $selected = mybcbqhk_magodu("Donations, $connector)
+        or die("Unable to connect");
+
+      
+      $result = mysql_query("SELECT * FROM Donations");
+?> 
+<table border="2">
+      <thead>
+        <tr>
+
+        <th>Date</th>
+			<th>Name</th>
+			<th>Amount</th>
+			<th>Mode 
+				
+			</th>
+            <th>Purpose</th>
+        </tr>
+      </thead>
+      <tbody>
+        <?php
+          while( $row = mysql_fetch_assoc( $result ) ){
+            echo
+            "<tr>
+              <td>{$row\['Date'\]}</td>
+              <td>{$row\['Name'\]}</td>
+              <td>{$row\['Amount'\]}</td>
+              <td>{$row\['Mode'\]}</td>
+              <td>{$row\['Purpose'\]}</td>
+            </tr>\n";
+          }
+        ?>
+      </tbody>
+    </table>
+     <?php mysql_close($connector); ?>
 		<div class="topbar">
 				<div class="container">
 					<div class="row">
@@ -35,7 +77,7 @@
 						</div>
 						<div class="bar-mail">
 							<i class="fa fa-envelope"></i>
-							<span>Email:</span>
+							<span>Mail Us :</span>
 							<strong>mymagodu@gmail.com</strong>
 						</div>
 						<div class="header-social">
@@ -85,7 +127,7 @@
 
 
 								<li>
-										<a href="/">Financials</a>
+										<a href="financials.html">Financials</a>
 									</li>
 									<li>
 											<a href="contact.html">Contact Us</a>
@@ -117,100 +159,7 @@
 				</div>
 			</section>
 	
-	
-	<!--income -->
-	<section id="income">
-		<div class="container">
-			<div class="row ">
-				<h1>Donation so far : Total Amount 50,005 Rupees</h1>
-		<table cellspacing=2 cellpadding=10 id="data_table" border=1>
-			<tbody>
-			<tr>
-			<th>Date</th>
-			<th>Donor</th>
-			<th>Amount</th>
-			<th>Frequency 
-				<span>(Yearly, Monthly, Quaterly)</span>
-			</th>
-			<th>Purpose</th>
-			<!-- <th>Options</th> -->
-			
-			</tr>
-			
-			<tr id="row1">
-			<td id="date_row1">01-March-2018</td>
-			<td id="donor_row1">Shivakumar</td>
-			<td id="amnt_row1">25,000</td>
-			<td id="frequency_row1">Monthly</td>
-			<td id="purpose_row1">For Education</td>
-			<!-- <td>
-			<input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')" disabled>
-			<input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
-			<input type="button" value="Delete" class="delete" onclick="delete_row('1')">
-			</td> -->
-			</tr>
-			
-			<tr id="row2">
-			<td id="date_row2">01-March-2018</td>
-			<td id="donor_row2">Nanjamma</td>
-			<td id="amnt_row2">25,000</td>
-			<td id="frequency_row2">Monthly</td>
-			<td id="purpose_row2">For Sports</td>
-			<!-- <td>
-			<input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
-			<input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')">
-			<input type="button" value="Delete" class="delete" onclick="delete_row('2')">
-			</td> -->
-			</tr>
-			
-			<tr id="row3">
-			<td id="date_row3">01-March-2018</td>
-			<td id="donor_row3">Balakrishna</td>
-			<td id="amnt_row3">25,000</td>
-			<td id="frequency_row3">Monthly</td>
-			<td id="purpose_row3">For library</td>
-			<!-- <td>
-			<input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
-			<input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')">
-			<input type="button" value="Delete" class="delete" onclick="delete_row('3')">
-			</td> -->
-			</tr>
-			
-			<tr>
 
-			<tr id="row4">
-					<td id="date_row4">01-March-2018</td>
-					<td id="donor_row4">Prameela</td>
-					<td id="amnt_row4">10,001</td>
-					<td id="frequency_row4">Monthly</td>
-					<td id="purpose_row4">For Sports</td>
-					<!-- <td>
-					<input type="button" id="edit_button4" value="Edit" class="edit" onclick="edit_row('4')">
-					<input type="button" id="save_button4" value="Save" class="save" onclick="save_row('4')">
-					<input type="button" value="Delete" class="delete" onclick="delete_row('4')">
-					</td> -->
-					</tr>
-
-					<tr id="row5">
-							<td id="date_row5">01-March-2018</td>
-							<td id="donor_row5">Shoban</td>
-							<td id="amnt_row5">20,000</td>
-							<td id="frequency_row5">Monthly</td>
-							<td id="purpose_row5">For Sports</td>
-							<!-- <td>
-							<input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('5')">
-							<input type="button" id="save_button2" value="Save" class="save" onclick="save_row('5')">
-							<input type="button" value="Delete" class="delete" onclick="delete_row('5')">
-							</td> -->
-							</tr>
-			
-			<!-- <td><input type="button" class="add" onclick="add_row();" value="Add Row"></td> -->
-			</tr>
-			</tbody>
-			</table>
-			</div>
-			</div>
-		</section>
 
 		<div class="callout">
 				<div class="container">
@@ -399,5 +348,8 @@ function add_row()
 
 		
 	</script> -->
-    </body>
-    </html>
+   
+
+
+</body>
+</html>

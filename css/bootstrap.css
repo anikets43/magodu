@@ -2252,6 +2252,7 @@ pre code {
 table {
   background-color: transparent;
   border-color:transparent;
+  border: 1px dotted #ccc;
 }
 caption {
   padding-top: 8px;
@@ -4487,6 +4488,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-right {
     float: right !important;
     margin-right: -15px;
+    margin-top: 20px;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;
@@ -5877,7 +5879,7 @@ button.close {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1050;
+  z-index: 9999999;
   display: none;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
