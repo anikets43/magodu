@@ -1,15 +1,3 @@
-<!--
-Template Name: Magodu Eductaion Trust
-Title: charity website template free download bootstrap Magodu Eductaion Trust
-Description: charity website template with bootstrap framework for free download best suited for ngos charities.
-Keyword: charity website template, bootstrap charity template free, charity website templates bootstrap, donation website template free, charity website templates bootstrap free download
-Author: Bootstrap Website Templates
-Author URI: https://bootstrapwebtemplates.com/
-Template URI: https://bootstrapwebtemplates.com/free-download-bootstrap-charity-website-template
-Tags: charity, charity hub, donate, donations, foundation, fundraising, ngo, non profit, non-profit, nonprofit, organization, social, volunteer, welfare, Causes
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 
 <!DOCTYPE HTML>
 <html class="no-js" lang="de">
@@ -71,7 +59,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
 						<i class="fa fa-bars"></i>
 					</button>
-					<a class="navbar-brand logo" href="index.html">
+					<a class="navbar-brand logo" href="index.php">
 						<img src="images/logo.gif" class=" brand-logo img-responsive charity-logo" />
 						
 						<!-- <span>Magodu Foundation</span> -->
@@ -80,26 +68,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="collapse navbar-collapse" id="navbar-menu">
 					<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 						<li>
-							<a href="index.html">Home</a>
+							<a href="index.php">Home</a>
 						</li>
 						<li>
-							<a href="about-us.html">About Us</a>
+							<a href="about-us.php">About Us</a>
 						</li>
 						<li>
-							<a href="activities.html">Activities</a>
+							<a href="activities.php">Activities</a>
 						</li>
 						<li>
 									<a href="projects.html">Projects</a>
 								</li>
 						<li>
-							<a href="gallery.html">Gallery</a>
+							<a href="gallery.php">Gallery</a>
 						</li>
 						
 						<li>
-								<a href="index.html">Financials</a>
+								<a href="index.php">Financials</a>
 							</li>
 							<li>
-									<a href="contact.html">Contact Us</a>
+									<a href="contact.php">Contact Us</a>
 								</li>
 					</ul>
 				</div>
@@ -120,7 +108,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="col-sm-6">
 						<h6 class="breadcrumb">
-							<a href="index.html">Home</a> / Projects</h6>
+							<a href="index.php">Home</a> / Projects</h6>
 					</div>
 				</div>
 			</div>
