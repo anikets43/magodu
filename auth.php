@@ -1,5 +1,5 @@
 <?php
-    $db_host = '45.113.122.73'; // Server Name
+    $db_host = 'localhost'; // Server Name
     $db_user = 'mybcbqhk_prod'; // Username
     $db_pass = 'Password@01'; // Password
     $db_name = 'mybcbqhk_magodu'; // Database Name

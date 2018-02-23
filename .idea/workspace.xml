@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be0fece4-ab6f-4287-9fbd-840dadfd6569" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/about-us.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/activities.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/footer.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/common/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/donate.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/financials.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gallery.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/act-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mov_bbb.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/projects.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sponser.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sponsor-a-child.html" afterPath="" />
-    </list>
+    <list default="true" id="be0fece4-ab6f-4287-9fbd-840dadfd6569" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +56,7 @@
       <file leaf-file-name="financials.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/financials.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="211">
               <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <marker date="1519365000000" expanded="true" signature="363:402" ph="SELECT * FRO... Donations" />
@@ -237,12 +220,12 @@
       <updated>1519360126692</updated>
       <workItem from="1519360127961" duration="985000" />
       <workItem from="1519362897567" duration="1626000" />
-      <workItem from="1519364899290" duration="107000" />
+      <workItem from="1519364899290" duration="146000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2718000" />
+    <option name="totallyTimeSpent" value="2757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="943" extended-state="6" />
@@ -524,7 +507,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/financials.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="211">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <marker date="1519365000000" expanded="true" signature="363:402" ph="SELECT * FRO... Donations" />
